@@ -1,5 +1,5 @@
 {
-  "name": "kstkn/dadata",
+  "name": "webarchitect609/kstkn.dadata",
   "description": "Dadata API client (https://dadata.ru)",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -9,12 +9,21 @@
   },
   "authors": [
     {
-      "name": "Sergei Kasatkin"
+      "name": "Sergei Kasatkin",
+      "role": "Author"
+    },
+    {
+      "name": "Sergey Gripinskiy",
+      "email": "web-architect@mail.ru",
+      "role": "Contributor"
     }
   ],
   "require": {
-    "php": ">=5.5.0",
-    "guzzlehttp/guzzle": "^6.2"
+    "php": "^7.4 || ^8.0",
+    "guzzlehttp/guzzle": "^6.5 || ^7.4"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
   },
   "autoload": {
     "psr-4": {
