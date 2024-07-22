@@ -1,3 +1,8 @@
+# Fork description
+
+This fork was created for compatibility with `guzzlehttp/guzzle: ^6.5 || ^7.4`. It's **not maintained** and barely alive
+only for some legacy projects.
+
 Dadata API client
 =================
 

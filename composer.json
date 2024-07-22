@@ -1,5 +1,5 @@
 {
-  "name": "kstkn/dadata",
+  "name": "webarchitect609/kstkn.dadata",
   "description": "Dadata API client (https://dadata.ru)",
   "minimum-stability": "stable",
   "license": "MIT",
@@ -10,11 +10,17 @@
   "authors": [
     {
       "name": "Sergey Kasatkin",
-      "email": "spam@onsky.ru"
+      "email": "spam@onsky.ru",
+      "role": "Author"
     },
     {
       "name": "Vitaly Grechkin",
       "email": "vitaly.grechkin@gmail.com"
+    },
+    {
+      "name": "Sergey Gripinskiy",
+      "email": "web-architect@mail.ru",
+      "role": "Contributor"
     }
   ],
   "require": {
@@ -27,7 +33,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "^7",
-    "zendframework/zend-diactoros": "^2.0"
+    "zendframework/zend-diactoros": "^2.0",
+    "roave/security-advisories": "dev-latest"
   },
   "autoload": {
     "psr-4": {
